@@ -1,8 +1,8 @@
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# swallowing world
  
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
- 
-"hoge"が何かを簡潔に紹介する
+The "swallowing app" is aimed at people who want to know what swallow is.
+
+
  
 # DEMO
  
@@ -10,7 +10,8 @@
  
 # Features
  
-"hoge"のセールスポイントや差別化などを説明する
+ This application can learn not　only classroom learning but also practice.
+ The "クイズ！"　is based on experiences I had.
  
 # Requirement
  
@@ -42,12 +43,8 @@ python demo.py
 注意点などがあれば書く
  
 # Author
- 
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
+ toyasu
+ twitter:@kt08232
  
 # License
 ライセンスを明示する
