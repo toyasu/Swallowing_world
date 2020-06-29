@@ -1,0 +1,28 @@
+.toromi__container {
+  width: 100vw;
+  position: relative;
+}
+
+.side-bar {
+  width: 200px;
+  position: absolute;
+  left: 0px;
+}
+
+.toromi__main {
+  position: absolute;
+  left: 250px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+}
+
+.toromi__main h4,
+.toromi__main h5,
+.toromi__main p {
+  margin-bottom: 20px;
+}
+
+.toromi__main h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}

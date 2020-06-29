@@ -1,0 +1,63 @@
+<%= render partial: 'modules/header' %>
+<body class="introduce__container">
+  <div class="container">  
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              このサイトについて
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+          このサイトは嚥下障害のある方・家族・これからその様な方に接していくであろう人に見ていただきたく作成しました。<br>
+          言語聴覚士として現場で働いていた際に、働く人たちや家族様に知っておいて欲しいかったことを書いております。<br>
+          できるだけわかりやすく説明しようとは思いますが解剖のことも一部必要なため、専門用語が時々入ります。（専門用語は出てきた際に説明を入れるつもりです）<br>
+          本当は色々、おすすめの介護用品等あるのですが、著作権的に不明のため掲載しておりません。（載せたい…）
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              制作者自己紹介
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+          ・言語聴覚士歴４年<br>
+          ・普通の４年生大学卒業後に医療業界に興味を持ち、専門学校に２年通う<br>
+          ・現在はプログラミングスクール通い、プログラマーを目指している
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              この仕事の中で思ったことなど
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+          専門学校に通っている時は、全く嚥下について興味はありませんでした。<br>
+          入職当初はむしろ、飲み込みのリハビリはリスクが高すぎて嫌いなくらいでした。<br>
+          しかし嚥下のリハビリをしていく中で、口から食べることができる様になったり、本人の希望に寄り添い、最期まで少しでも何かを食べることができたりした時は、「この仕事をやっていて良かった」と思いました。<br>
+          色々な経験をして徐々に苦手意識は薄れていきましたが、食事介助が「人の命を奪いかねないという行為であること」に対しても意識が薄くなっていく自分に危機感を覚えることもありました。<br>
+          私は「危機感がなくなっていくこと」や「そもそもの知識不足」により、事故の起こる可能性は高くなると考えています。<br>
+          防ぐことができる事故がなくなることに、このサイトが一助となれれば幸いです。<br>
+          （頑張って情報随時追加します！）
+          </div>
+        </div>
+      </div>
+    </div>
+    <%= link_to "ホームに戻る", home_path, class:"btn btn-primary"%>
+
+  </div>
+</body>

@@ -1,0 +1,130 @@
+<%= render partial: 'modules/header' %>
+
+
+
+<div class="container">
+
+  <div id="carouselExampleIndicators" class="carousel slide mb-3" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <%= image_tag 'introduce', alt:"character", width: '100%', height: '400' %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>自己紹介</h5>
+          <p>このサイトの制作者自己紹介です</p>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <%= image_tag 'swallow', alt:"character", width: '100%', height: '400' %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>嚥下とは？</h5>
+          <p>飲み込みについて詳しくみていきましょう</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag 'aspiration', alt:"character", width: '100%', height: '400' %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>誤嚥とは？</h5>
+          <p>色々な誤嚥の種類をみていきましょう！</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag 'food', alt:"character", width: '100%', height: '400' %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>食べ物について</h5>
+          <p>食べやすい食べ物・食べにくい食べ物について知りましょう</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag 'toromi', alt:"character", width: '100%', height: '400' %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>とろみって何？</h5>
+          <p>飲み込みにくさを解消させる「トロミ」について詳しく説明します</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag 'quiz', alt:"character", width: '100%', height: '400' %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>クイズ！</h5>
+          <p>現場で出会いそうなケースをクイズにしてみました</p>
+        </div>
+      </div>
+
+
+
+  </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <div class="card-deck mb-3">
+    <div class="card">
+      <%= image_tag 'introduce', alt:"character", width: '100%', height: '200' %>
+      <div class="card-body">
+        <h5 class="card-title">自己紹介</h5>
+        <p class="card-text">このサイトの制作者自己紹介とサイト紹介です。<br>今後、病院で働いていた時に思っていたことなど、書くことができる範囲でこちらに書いていこうかと思います。</p>
+        <%= link_to "Go to Next Page!", introduce_path, class:"btn btn-primary"%>
+
+      </div>
+    </div>
+    <div class="card">
+      <%= image_tag 'swallow', alt:"character", width: '100%', height: '200' %>
+      <div class="card-body">
+        <h5 class="card-title">嚥下とは？</h5>
+        <p class="card-text">飲み込みは５つの場面に分けて考えられることがあります。<br>その５つを詳しく見ていきましょう！</p>
+        <%= link_to "Go to Next Page!", swallowing_path, class:"btn btn-primary"%>
+      </div>
+    </div>
+    <div class="card">
+      <%= image_tag 'aspiration', alt:"character", width: '100%', height: '200' %>
+      <div class="card-body">
+        <h5 class="card-title">誤嚥とは？</h5>
+        <p class="card-text">誤嚥（食べ物などが誤って肺に入ること）には種類があります。色々な種類の誤嚥を見ていきましょう！</p>
+        <%= link_to "Go to Next Page!", aspiration_path, class:"btn btn-primary"%>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-deck mb-3">
+    <div class="card">
+      <%= image_tag 'food', alt:"character", width: '100%', height: '200' %>
+      <div class="card-body">
+        <h5 class="card-title">食べ物について</h5>
+        <p class="card-text">普段意識することはあまりないと思いますが、食べ物には食べやすいもの・食べにくいものがあります。<br>この２種類を具体的に紹介します。</p>
+        <%= link_to "Go to Next Page!", food_path, class:"btn btn-primary"%>
+      </div>
+    </div>
+    <div class="card">
+      <%= image_tag 'toromi', alt:"character", width: '100%', height: '200' %>
+      <div class="card-body">
+        <h5 class="card-title">とろみって何？</h5>
+        <p class="card-text">液体は、飲み込みの能力が落ちている人にとって飲み込みにくいものです。<br>飲み込みにくさを解消させる「トロミ」というものを詳しく説明します。</p>
+        <%= link_to "Go to Next Page!", toromi_path, class:"btn btn-primary"%>
+      </div>
+    </div>
+    <div class="card">
+      <%= image_tag 'quiz', alt:"character", width: '100%', height: '200' %>
+      <div class="card-body">
+        <h5 class="card-title">クイズ！</h5>
+        <p class="card-text">現場で出会いそうなケースをクイズにしてみました！<br>「私ならこう考える」という視点で書いているため、必ずしも正解ではないものもあります。「自分ならどうするか？」を色々考えてみてください！</p>
+        <%= link_to "Go to Next Page!", quiz_path, class:"btn btn-primary"%>
+      </div>
+    </div>
+  </div>
+</div>

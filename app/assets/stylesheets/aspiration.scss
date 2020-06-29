@@ -1,0 +1,29 @@
+.aspiration__container {
+  width: 100vw;
+  position: relative;
+}
+
+.side-bar {
+  width: 200px;
+  position: absolute;
+  left: 0px;
+}
+
+.aspiration__main {
+  position: absolute;
+  left: 240px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+}
+
+.aspiration__main h4,
+.aspiration__main h5,
+.aspiration__main p {
+  margin-bottom: 20px;
+}
+
+.aspiration__main h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+

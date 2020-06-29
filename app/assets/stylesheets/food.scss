@@ -1,0 +1,29 @@
+.food__container {
+  width: 100vw;
+  position: relative;
+}
+
+.side-bar {
+  width: 200px;
+  position: absolute;
+  left: 0px;
+}
+
+.food__main {
+  position: absolute;
+  left: 260px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+}
+
+.food__main h4,
+.food__main h5,
+.food__main p {
+  margin-bottom: 20px;
+}
+
+.food__main h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+

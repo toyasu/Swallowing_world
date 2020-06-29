@@ -1,0 +1,22 @@
+<div class="device__body">
+  <div class="device__body__contents">
+    <div class="device__body__contents__detail">
+      <h2 class="device__body__contents__detail__notice">Forgot your password?</h2>
+
+      <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+        <%= render "devise/shared/error_messages", resource: resource %>
+
+        <div class="field">
+          <%= f.label :email %><br />
+          <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+        </div>
+
+        <div class="forgot__actions">
+          <%= f.submit "パスワード再発行" %>
+        </div>
+      <% end %>
+
+      <%= render "devise/shared/links" %>
+    </div>
+  </div>
+</div>
