@@ -1,8 +1,7 @@
 ![toppage](https://github.com/toyasu/Swallowing_world/blob/master/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-06-30%2011.36.13.png)
 
-# swallowing world
- 
-The "swallowing app" is aimed at people who want to know what swallow is.<br>
+# swallowing world:bird: 
+:bulb:The "swallowing app" is aimed at people who want to know what swallow is.<br>
 
 I had worked in the hospital as a speech therapist for 4 years.<br>
 On that ocation I thought everyone don't know enough about swallowing(include patient's family).<br>
@@ -10,8 +9,7 @@ It's only natural,they commited dagerous acts against patients because of they d
 So I made this application because I want them to know whichever or not their assistance is safety.<br>
 
 From now on, I want to add submit function to debate about the patient who has swallowing disability.<br>
-And to read more easily, I'll insert a lot of diagrams.
-
+And to read more easily, I'll insert a lot of diagrams.:thought_balloon:
  
 # DEMO
  
@@ -48,11 +46,10 @@ If you want to enter this application,please input this pass.
 email:
 passward:
  
-# Author
- toyasu<br>
- twitter:@kt08232
+# Author:pencil2: 
+toyasu<br>
+:iphone::@kt08232
  
-# License
- 
+# License:lock: 
 "Swallowing world" is under [MIT license]
  
