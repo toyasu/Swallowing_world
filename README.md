@@ -27,7 +27,7 @@ And to read more easily, I'll insert a lot of diagrams.
  
 # Installation
  
-$ git clone https://github.com/aocattleya/hoge.git
+$ git clone https://github.com/toyasu/Swallowing_world
 $ cd Swallowing_world
 $ bundle install
 $ rails db:create
