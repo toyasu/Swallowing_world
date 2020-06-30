@@ -56,10 +56,6 @@ python demo.py
  twitter:@kt08232
  
 # License
-ライセンスを明示する
  
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"Swallowing app" is under [MIT license]
  
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
