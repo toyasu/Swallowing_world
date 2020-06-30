@@ -45,8 +45,8 @@ https://swallowing-app.herokuapp.com/
  
 # Usage
  
-First, you have to choice "新規登録" or "ログイン".
-Please click "ログイン".
+First, you have to choice "新規登録" or "ログイン".<br>
+Please click "ログイン".<br>
 If you want to enter this application,please input this pass and click "ログイン"<br>
 email:testuser@gmail.com   <br>
 passward:testtest
