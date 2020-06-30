@@ -48,7 +48,7 @@ passward:
  
 # Author:pencil2: 
 toyasu<br>
-:iphone::@kt08232
+twitter:@kt08232:iphone:
  
 # License:lock: 
 "Swallowing world" is under [MIT license]
