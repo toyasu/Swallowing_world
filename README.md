@@ -41,9 +41,9 @@ $ rails s<br>
  
 # Usage
  
-First, you have to subscribe your e-mail and password.
-If you want to enter this application,please input this pass.
-email:
+First, you have to subscribe your e-mail and password.<br>
+If you want to enter this application,please input this pass.<br>
+email:   <br>
 passward:
  
 # Author:pencil2: 
