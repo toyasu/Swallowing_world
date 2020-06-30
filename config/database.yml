@@ -52,3 +52,9 @@ production:
   database: swallowing_world_production
   username: swallowing_world
   password: <%= ENV['SWALLOWING_WORLD_DATABASE_PASSWORD'] %>
+
+production:
+  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5

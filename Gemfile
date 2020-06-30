@@ -65,3 +65,7 @@ gem "jquery-rails"
 gem "jquery-ui-rails"
 gem 'font-awesome-sass', '~> 5.4.1'
 gem 'devise'
+
+group :production do
+  gem 'pg'
+end
