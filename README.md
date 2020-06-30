@@ -23,17 +23,19 @@ And to read more easily, I'll insert a lot of diagrams.
 # Requirement
  
 * Rails 5.2
- 
-* huga 3.5.2
-* hogehuga 1.0.2
+
  
 # Installation
  
-Requirementで列挙したライブラリなどのインストール方法を説明する
+$ git clone https://github.com/aocattleya/hoge.git
+$ cd Swallowing_world
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+$ rails s
+👉 http://localhost:3000
  
-```bash
-pip install huga_package
-```
+
  
 # Usage
  
