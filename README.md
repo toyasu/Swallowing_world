@@ -23,19 +23,21 @@ And to read more easily, I'll insert a lot of diagrams.
 # Requirement
  
 * Rails 5.2
+* mysql  5.6.47
+* bootstrap 4.5
+* VSCode（Visual Studio Code）
 
  
 # Installation
  
-$ git clone https://github.com/toyasu/Swallowing_world
-$ cd Swallowing_world
-$ bundle install
-$ rails db:create
-$ rails db:migrate
-$ rails s
+$ git clone https://github.com/toyasu/Swallowing_world.git<br>
+$ cd Swallowing_world<br>
+$ bundle install<br>
+$ rails db:create<br>
+$ rails db:migrate<br>
+$ mysql.server start <br>
+$ rails s<br>
 👉 http://localhost:3000
- 
-
  
 # Usage
  
@@ -46,10 +48,6 @@ git clone https://github.com/hoge/~
 cd examples
 python demo.py
 ```
- 
-# Note
- 
-注意点などがあれば書く
  
 # Author
  toyasu<br>
