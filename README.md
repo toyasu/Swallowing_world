@@ -38,13 +38,18 @@ $ rails db:migrate<br>
 $ mysql.server start <br>
 $ rails s<br>
 👉 http://localhost:3000
+
+# App URL
+
+https://swallowing-app.herokuapp.com/
  
 # Usage
  
-First, you have to subscribe your e-mail and password.<br>
-If you want to enter this application,please input this pass.<br>
-email:   <br>
-passward:
+First, you have to choice "新規登録" or "ログイン".
+Please click "ログイン".
+If you want to enter this application,please input this pass and click "ログイン"<br>
+email:testuser@gmail.com   <br>
+passward:testtest
  
 # Author:pencil2: 
 toyasu<br>
