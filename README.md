@@ -15,7 +15,7 @@ And to read more easily, I'll insert a lot of diagrams.
  
 # DEMO
  
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+![quizpage](https://github.com/toyasu/Swallowing_world/blob/master/e487e37e9970ba555ecd345c576df21e.gif)
  
 # Features
  
