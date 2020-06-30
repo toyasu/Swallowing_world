@@ -43,13 +43,10 @@ $ rails s<br>
  
 # Usage
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+First, you have to subscribe your e-mail and password.
+If you want to enter this application,please input this pass.
+email:
+passward:
  
 # Author
  toyasu<br>
