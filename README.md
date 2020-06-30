@@ -57,5 +57,5 @@ python demo.py
  
 # License
  
-"Swallowing app" is under [MIT license]
+"Swallowing world" is under [MIT license]
  
