@@ -4,9 +4,11 @@
 :bulb:The "swallowing app" is aimed at people who want to know what swallow is.<br>
 
 I had worked in the hospital as a speech therapist for 4 years.<br>
-On that ocation I thought everyone don't know enough about swallowing(include patient's family).<br>
-It's only natural,they commited dagerous acts against patients because of they don't know about that.<br>
-So I made this application because I want them to know whichever or not their assistance is safety.<br>
+Back then, it seemed that many people (including the patient's family) were unaware of the complications that could arise when a patient swallows food or drink.<br>
+As a result, caretakers would often cause harm to the patient when attempting to administer care<br>
+I made this application to assist caretakers in helping patients without causing them harm.
+
+<br>
 
 From now on, I want to add submit function to debate about the patient who has swallowing disability.<br>
 And to read more easily, I'll insert a lot of diagrams.:thought_balloon:
@@ -17,7 +19,7 @@ And to read more easily, I'll insert a lot of diagrams.:thought_balloon:
  
 # Features
  
- This application can learn not　only classroom learning but also practice.<br>
+ This application can be used not only for learning in the classroom but can also be applied in real-world scenarios.<br>
  The "クイズ！"　is based on experiences I had.
  
 # Requirement
@@ -49,7 +51,7 @@ First, you have to choice "新規登録" or "ログイン".<br>
 Please click "ログイン".<br>
 If you want to enter this application,please input this pass and click "ログイン"<br>
 email:testuser@gmail.com   <br>
-passward:testtest
+password:testtest
  
 # Author:pencil2: 
 toyasu<br>
