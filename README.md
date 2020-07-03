@@ -1,7 +1,7 @@
-![toppage](https://github.com/toyasu/Swallowing_world/blob/master/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-06-30%2011.36.13.png)
+![toppage](https://github.com/toyasu/Swallowing_world/blob/master/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-07-03%2011.05.22.png)
 
-# Swallowing world:bird: 
-:bulb:The "swallowing app" is aimed at people who want to know what swallow is.<br>
+# Swallowing World:bird: 
+:bulb:The "swallowing World" is aimed at people who want to know what swallow is.<br>
 
 I had worked in the hospital as a speech therapist for 4 years.<br>
 Back then, it seemed that many people (including the patient's family) were unaware of the complications that could arise when a patient swallows food or drink.<br>
@@ -15,7 +15,7 @@ And to read more easily, I'll insert a lot of diagrams.:thought_balloon:
  
 # DEMO
  
-![quizpage](https://github.com/toyasu/Swallowing_world/blob/master/e487e37e9970ba555ecd345c576df21e.gif)
+![quizpage](https://github.com/toyasu/Swallowing_world/blob/master/bc9836d84b4326834019fb9dd2ce6fe9.gif)
  
 # Features
  
@@ -58,5 +58,5 @@ toyasu<br>
 twitter:@kt08232:iphone:
  
 # License:lock: 
-"Swallowing world" is under [MIT license]
+"Swallowing World" is under [MIT license]
  
