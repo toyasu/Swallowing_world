@@ -15,7 +15,7 @@ And to read more easily, I'll insert a lot of diagrams.:thought_balloon:
  
 # DEMO
  
-![quizpage](https://github.com/toyasu/Swallowing_world/blob/master/e487e37e9970ba555ecd345c576df21e.gif)
+![quizpage](https://github.com/toyasu/Swallowing_world/blob/master/bc9836d84b4326834019fb9dd2ce6fe9.gif)
  
 # Features
  
